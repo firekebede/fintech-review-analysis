@@ -2,7 +2,7 @@ import mysql.connector
 import pandas as pd
 
 # Load your cleaned review data
-df = pd.read_csv("cleaned_reviews.csv")  # Make sure this file exists and is clean
+df = pd.read_csv('C:\Users\Administrator\Desktop\fintech-review-analysis\data\clean_reviews.csv')  # Make sure this file exists and is clean
 
 # Connect to MySQL
 conn = mysql.connector.connect(
